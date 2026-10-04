@@ -1,1 +1,269 @@
 # Promo-Internet-XL
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XL Internet & XL Satu - Pemasaran Internet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;0,900;1,800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            dark: '#0a1930',
+                            blue: '#004aad',
+                            cyan: '#00d2ff',
+                            yellow: '#fadb00',
+                            green: '#25d366'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #020024 0%, #090979 35%, #00d2ff 100%);
+            background-attachment: fixed;
+        }
+        .neon-border {
+            box-shadow: 0 0 10px rgba(0, 210, 255, 0.5), inset 0 0 10px rgba(0, 210, 255, 0.3);
+        }
+        .text-glow {
+            text-shadow: 0 0 10px rgba(0, 210, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen font-sans flex flex-col">
+
+    <header class="w-full pt-10 pb-6 px-4 text-center z-10 relative">
+        <div class="max-w-6xl mx-auto">
+            <!-- Header Logos & Title -->
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-between bg-brand-dark bg-opacity-70 backdrop-blur-md rounded-2xl p-6 border-b-4 border-brand-cyan shadow-xl">
+                <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                    <div class="text-5xl md:text-6xl font-black text-white italic tracking-tighter">
+                        X<span class="text-brand-green">L</span>
+                    </div>
+                    <div class="text-left leading-tight">
+                        <div class="text-2xl md:text-3xl font-extrabold text-white">XL</div>
+                        <div class="text-2xl md:text-3xl font-extrabold text-white">INTERNET</div>
+                    </div>
+                </div>
+                
+                <div class="text-center md:text-right">
+                    <h1 class="text-3xl md:text-4xl font-black text-brand-cyan text-glow italic mb-2">
+                        INTERNET UNTUK SEMUA
+                    </h1>
+                    <div class="flex justify-center md:justify-end items-center space-x-3 text-sm md:text-lg font-bold">
+                        <span>RUMAH</span>
+                        <span class="w-2 h-2 bg-white rounded-full"></span>
+                        <span>KERJA</span>
+                        <span class="w-2 h-2 bg-white rounded-full"></span>
+                        <span>HIBURAN</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Tagline -->
+            <div class="mt-8">
+                <h2 class="text-xl md:text-3xl font-extrabold tracking-widest text-brand-yellow drop-shadow-lg mb-6">
+                    LEBIH CEPAT <span class="mx-2 text-white">•</span> LEBIH STABIL <span class="mx-2 text-white">•</span> LEBIH BAIK
+                </h2>
+                
+                <!-- NEW: Global Advantages Badges -->
+                <div class="flex flex-wrap justify-center gap-3 md:gap-6 mt-4">
+                    <div class="bg-brand-dark/80 backdrop-blur-sm border border-brand-cyan px-4 py-2 rounded-full flex items-center space-x-2 shadow-[0_0_10px_rgba(0,210,255,0.2)]">
+                        <i class="fa-solid fa-infinity text-brand-cyan"></i>
+                        <span class="font-bold text-xs md:text-sm">Unlimited Tanpa Kuota</span>
+                    </div>
+                    <div class="bg-brand-dark/80 backdrop-blur-sm border border-brand-green px-4 py-2 rounded-full flex items-center space-x-2 shadow-[0_0_10px_rgba(37,211,102,0.2)]">
+                        <i class="fa-solid fa-microchip text-brand-green"></i>
+                        <span class="font-bold text-xs md:text-sm">Teknologi Terkini</span>
+                    </div>
+                    <div class="bg-brand-dark/80 backdrop-blur-sm border border-brand-yellow px-4 py-2 rounded-full flex items-center space-x-2 shadow-[0_0_10px_rgba(250,219,0,0.2)]">
+                        <i class="fa-solid fa-headset text-brand-yellow"></i>
+                        <span class="font-bold text-xs md:text-sm">Layanan Bantuan 24/7</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow w-full max-w-7xl mx-auto px-4 py-8 z-10 relative">
+        
+        <!-- PRODUK FTTH -->
+        <section class="mb-16">
+            <div class="bg-gradient-to-r from-brand-blue to-cyan-700 rounded-t-2xl p-4 md:p-6 flex flex-col md:flex-row items-center md:items-start shadow-lg border-2 border-brand-cyan border-b-0 text-center md:text-left">
+                <i class="fa-solid fa-tower-cell text-5xl mb-3 md:mb-0 md:mr-5 text-white"></i>
+                <div>
+                    <h2 class="text-3xl font-black italic">PRODUK FTTH</h2>
+                    <p class="text-sm font-semibold bg-brand-dark px-3 py-1 rounded-full inline-block mt-1 mb-2">INTERNET FIBER OPTIC UNTUK RUMAH</p>
+                    <p class="text-xs md:text-sm text-gray-200 mt-1 max-w-3xl">Kelebihan Fiber Optic: Koneksi ultra stabil yang kebal terhadap cuaca buruk, latensi sangat rendah (ping kecil) cocok untuk gaming, dan kapasitas bandwidth besar untuk seluruh keluarga.</p>
+                </div>
+            </div>
+            
+            <div class="bg-brand-dark bg-opacity-90 rounded-b-2xl p-6 border-2 border-brand-cyan neon-border">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                    
+                    <!-- Card 20 Mbps -->
+                    <div class="bg-gradient-to-b from-blue-800 to-blue-950 rounded-xl border border-brand-cyan overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_20px_rgba(0,210,255,0.6)] flex flex-col text-center">
+                        <div class="p-5 flex-grow flex flex-col">
+                            <h3 class="text-5xl font-black mb-1">20</h3>
+                            <p class="text-xl font-bold mb-2">Mbps</p>
+                            <p class="text-2xl font-bold text-brand-cyan mb-3">Rp 205.350</p>
+                            
+                            <!-- Kelebihan Specific Card -->
+                            <div class="bg-black/30 rounded-lg p-3 text-left mt-2 mb-4 flex-grow">
+                                <ul class="text-[11px] md:text-xs font-semibold space-y-2 text-gray-200">
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> 100% Fiber Optic</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Kuota Tanpa Batas (Unlimited)</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Cocok untuk 1-3 Perangkat</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Lancar Streaming HD & Sosmed</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://wa.me/6283187683378?text=Halo,%20saya%20tertarik%20dengan%20paket%20FTTH%2020Mbps.%20Saya%20mau%20pasang,%20tolong%20cek%20area%20rumah%20saya." target="_blank" class="mt-auto block w-full bg-brand-green hover:bg-green-400 text-brand-dark font-bold py-2.5 px-4 rounded-lg transition duration-300 text-sm shadow-md">
+                                <i class="fa-brands fa-whatsapp text-lg mr-1 align-middle"></i> Pesan
+                            </a>
+                        </div>
+                        <div class="bg-gray-200 text-gray-800 py-3 px-2">
+                            <p class="text-xs font-bold uppercase">Biaya Instalasi</p>
+                            <p class="text-lg font-black">Rp 100.000</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 250 Mbps -->
+                    <div class="bg-gradient-to-b from-blue-800 to-blue-950 rounded-xl border border-brand-cyan overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_20px_rgba(0,210,255,0.6)] flex flex-col text-center">
+                        <div class="p-5 flex-grow flex flex-col">
+                            <h3 class="text-5xl font-black mb-1">250</h3>
+                            <p class="text-xl font-bold mb-2">Mbps</p>
+                            <p class="text-2xl font-bold text-brand-cyan mb-3">Rp 254.190</p>
+                            
+                            <!-- Kelebihan Specific Card -->
+                            <div class="bg-black/30 rounded-lg p-3 text-left mt-2 mb-4 flex-grow">
+                                <ul class="text-[11px] md:text-xs font-semibold space-y-2 text-gray-200">
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> 100% Fiber Optic</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Kuota Tanpa Batas (Unlimited)</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Cocok untuk 5-10 Perangkat</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Stabil untuk Gaming & 4K Video</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://wa.me/6283187683378?text=Halo,%20saya%20tertarik%20dengan%20paket%20FTTH%20250Mbps.%20Saya%20mau%20pasang,%20tolong%20cek%20area%20rumah%20saya." target="_blank" class="mt-auto block w-full bg-brand-green hover:bg-green-400 text-brand-dark font-bold py-2.5 px-4 rounded-lg transition duration-300 text-sm shadow-md">
+                                <i class="fa-brands fa-whatsapp text-lg mr-1 align-middle"></i> Pesan
+                            </a>
+                        </div>
+                        <div class="bg-brand-dark text-white py-3 px-2 border-t border-brand-cyan">
+                            <p class="text-xs font-bold uppercase">Biaya Instalasi</p>
+                            <p class="text-xl font-black text-brand-green">GRATIS</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 300 Mbps -->
+                    <div class="bg-gradient-to-b from-blue-800 to-blue-950 rounded-xl border border-brand-cyan overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_20px_rgba(0,210,255,0.6)] flex flex-col text-center relative">
+                        <!-- Best Value Ribbon -->
+                        <div class="absolute top-0 right-0 bg-brand-yellow text-brand-dark text-xs font-bold px-3 py-1 rounded-bl-lg z-10">BEST SELLER</div>
+                        
+                        <div class="p-5 flex-grow flex flex-col">
+                            <h3 class="text-5xl font-black mb-1">300</h3>
+                            <p class="text-xl font-bold mb-2">Mbps</p>
+                            <p class="text-2xl font-bold text-brand-cyan mb-3">Rp 265.290</p>
+                            
+                            <!-- Kelebihan Specific Card -->
+                            <div class="bg-black/30 rounded-lg p-3 text-left mt-2 mb-4 flex-grow border border-brand-yellow/30">
+                                <ul class="text-[11px] md:text-xs font-semibold space-y-2 text-gray-200">
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> 100% Fiber Optic</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Kuota Tanpa Batas (Unlimited)</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Cocok untuk 10-15 Perangkat</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Ekstra Cepat untuk Smart Home</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://wa.me/6283187683378?text=Halo,%20saya%20tertarik%20dengan%20paket%20FTTH%20300Mbps.%20Saya%20mau%20pasang,%20tolong%20cek%20area%20rumah%20saya." target="_blank" class="mt-auto block w-full bg-brand-green hover:bg-green-400 text-brand-dark font-bold py-2.5 px-4 rounded-lg transition duration-300 text-sm shadow-md">
+                                <i class="fa-brands fa-whatsapp text-lg mr-1 align-middle"></i> Pesan
+                            </a>
+                        </div>
+                        <div class="bg-brand-dark text-white py-3 px-2 border-t border-brand-cyan">
+                            <p class="text-xs font-bold uppercase">Biaya Instalasi</p>
+                            <p class="text-xl font-black text-brand-green">GRATIS</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 400 Mbps -->
+                    <div class="bg-gradient-to-b from-blue-800 to-blue-950 rounded-xl border border-brand-cyan overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_20px_rgba(0,210,255,0.6)] flex flex-col text-center">
+                        <div class="p-5 flex-grow flex flex-col">
+                            <h3 class="text-5xl font-black mb-1">400</h3>
+                            <p class="text-xl font-bold mb-2">Mbps</p>
+                            <p class="text-2xl font-bold text-brand-cyan mb-3">Rp 331.890</p>
+                            
+                            <!-- Kelebihan Specific Card -->
+                            <div class="bg-black/30 rounded-lg p-3 text-left mt-2 mb-4 flex-grow">
+                                <ul class="text-[11px] md:text-xs font-semibold space-y-2 text-gray-200">
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> 100% Fiber Optic</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Kuota Tanpa Batas (Unlimited)</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Cocok untuk >15 Perangkat</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Pas untuk Kantor Skala Kecil</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://wa.me/6283187683378?text=Halo,%20saya%20tertarik%20dengan%20paket%20FTTH%20400Mbps.%20Saya%20mau%20pasang,%20tolong%20cek%20area%20rumah%20saya." target="_blank" class="mt-auto block w-full bg-brand-green hover:bg-green-400 text-brand-dark font-bold py-2.5 px-4 rounded-lg transition duration-300 text-sm shadow-md">
+                                <i class="fa-brands fa-whatsapp text-lg mr-1 align-middle"></i> Pesan
+                            </a>
+                        </div>
+                        <div class="bg-brand-dark text-white py-3 px-2 border-t border-brand-cyan">
+                            <p class="text-xs font-bold uppercase">Biaya Instalasi</p>
+                            <p class="text-xl font-black text-brand-green">GRATIS</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 500 Mbps -->
+                    <div class="bg-gradient-to-b from-blue-800 to-blue-950 rounded-xl border border-brand-cyan overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_0_20px_rgba(0,210,255,0.6)] flex flex-col text-center">
+                        <div class="p-5 flex-grow flex flex-col">
+                            <h3 class="text-5xl font-black mb-1">500</h3>
+                            <p class="text-xl font-bold mb-2">Mbps</p>
+                            <p class="text-2xl font-bold text-brand-cyan mb-3">Rp 442.890</p>
+                            
+                            <!-- Kelebihan Specific Card -->
+                            <div class="bg-black/30 rounded-lg p-3 text-left mt-2 mb-4 flex-grow">
+                                <ul class="text-[11px] md:text-xs font-semibold space-y-2 text-gray-200">
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> 100% Fiber Optic</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Kuota Tanpa Batas (Unlimited)</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Prioritas Bandwidth Tinggi</li>
+                                    <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mt-0.5 mr-2"></i> Ultra Cepat Tanpa Lag / Buffering</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://wa.me/6283187683378?text=Halo,%20saya%20tertarik%20dengan%20paket%20FTTH%20500Mbps.%20Saya%20mau%20pasang,%20tolong%20cek%20area%20rumah%20saya." target="_blank" class="mt-auto block w-full bg-brand-green hover:bg-green-400 text-brand-dark font-bold py-2.5 px-4 rounded-lg transition duration-300 text-sm shadow-md">
+                                <i class="fa-brands fa-whatsapp text-lg mr-1 align-middle"></i> Pesan
+                            </a>
+                        </div>
+                        <div class="bg-brand-dark text-white py-3 px-2 border-t border-brand-cyan">
+                            <p class="text-xs font-bold uppercase">Biaya Instalasi</p>
+                            <p class="text-xl font-black text-brand-green">GRATIS</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUK FWA -->
+        <section class="mb-10">
+            <div class="bg-gradient-to-r from-blue-900 to-indigo-800 rounded-t-2xl p-4 md:p-6 flex flex-col md:flex-row items-center md:items-start shadow-lg border-2 border-brand-cyan border-b-0 text-center md:text-left">
+                <i class="fa-solid fa-wifi text-5xl mb-3 md:mb-0 md:mr-5 text-white"></i>
+                <div>
+                    <h2 class="text-3xl font-black italic">PRODUK FWA <span class="text-lg font-normal not-italic ml-1 md:ml-2 block md:inline">(Fixed Wireless Access)</span></h2>
+                    <p class="text-sm font-semibold bg-brand-cyan text-brand-dark px-3 py-1 rounded-full inline-block mt-1 mb-2">INTERNET TANPA KABEL JANGKAUAN LEBIH LUAS</p>
+                    <p class="text-xs md:text-sm text-gray-200 mt-1 max-w-3xl">Kelebihan FWA (Router Nirkabel): Proses instalasi sangat praktis tanpa perlu tarik kabel (Plug & Play), dapat menjangkau area luas menggunakan jaringan 4G/5G andal, serta mudah dipindah-tempatkan di dalam rumah.</p>
+                </div>
+            </div>
+
+            <div class="bg-brand-dark bg-opacity-90 rounded-b-2xl p-6 border-2 border-brand-cyan neon-border">
